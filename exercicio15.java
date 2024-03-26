@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class exercicio15 {
-    public static void main(String[] args) {
+    public static void executar()  {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite as coordenadas do ponto P1:");
