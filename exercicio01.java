@@ -1,18 +1,23 @@
+
 import java.util.Scanner;
 
 public class exercicio01 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite um número: ");
-        int numero = scanner.nextInt();
+    public static void executar(){
+    
+      int num;
 
-        if (numero > 10) {
-            System.out.println("Número maior do que 10!");
-        } else {
-            System.out.println("Número menor ou igual a 10!");
+      Scanner leitor = new Scanner(System.in);
+      System.out.println("Digite um número: ");
+      num = leitor.nextInt();
+
+      if(num > 10){
+         System.out.println("Número maior que 10!");
+        }else{
+        System.out.println("Número menor que 10!");
         }
 
-        scanner.close();
-    }
+      leitor.close();
+}
+
 }
